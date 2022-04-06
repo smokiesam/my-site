@@ -1,0 +1,311 @@
+/*********************************FONTS*************************************/
+/*  font-family: 'Alex Brush', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Carattere', cursive;
+font-family: 'Charmonman', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Corinthia', cursive;
+font-family: 'Euphoria Script', cursive;
+font-family: 'Expletus Sans', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Gwendolyn', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Rouge Script', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Waterfall', cursive;
+font-family: 'Yesteryear', cursive;
+font-family: 'Island Moments', cursive;
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Spinnaker', sans-serif;
+font-family: 'Basic', sans-serif;
+font-family: 'Average Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Martel', serif; */
+/********************************FONTS*************************************/
+
+/********************************TOP-CONTAINER*************************************/
+
+body {
+  margin:0;
+  text-align: center;
+}
+
+.top-container{
+  background-color: #dce6e3;
+  height:759px;
+  position: relative;
+  width:auto;
+  }
+
+.top-sub-container{
+  position:relative;
+  height:458px;
+}
+
+.top-text{
+  position:absolute;
+  width:100%;
+  height:auto;
+  top:220px;
+}
+
+.name-box{
+  position: relative;
+  width:900px;
+  margin:0 auto 0 auto;
+}
+
+.name{
+  display:inline-block;
+  font-family: 'Great Vibes', cursive;
+  font-weight: lighter;
+  margin:0;
+  font-size: 80px;
+  color:#45b29a;
+}
+.name::selection {
+  background-color: #dce6e3;
+  color: black;
+}
+
+.programmer-box{
+  position: relative;
+  height:60px;
+  width:900px;
+  margin:0 auto 0 auto;
+}
+
+.programmer{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:23px;
+  font-family: 'Average Sans', sans-serif;
+  color:#45b29a;
+}
+.programmer::selection {
+  background-color: #dce6e3;
+  color: black;
+}
+
+/**************************** HR CONTENTS *****************************************/
+
+hr {
+  border-color: #bdc7c7;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width:7px;
+  width: 5%;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  transition: all 0.1s ease;
+}
+
+hr:hover{
+  transform: scaleX(1.8);
+}
+
+h3{
+  font-family: 'Average Sans', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color:#45b29a;
+}
+
+
+/**************************** IMAGE CONTENTS *****************************************/
+
+.top-image{
+  position:absolute;
+  width:100%;
+  height:300px;
+  bottom:0;
+}
+
+.hill{
+  position: relative;
+}
+
+.hill::selection {
+  background-color: #dce6e3;
+}
+
+#cloud1{
+  position:absolute;
+  right:0;
+}
+
+#cloud2{
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+.cloud::selection {
+  background-color:#dce6e3;
+}
+/******************************* MIDDLE CONTAINER STARTS HERE *************************************/
+
+.profile{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.boy-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.boy-image::selection{
+  background-color: white;
+}
+
+.hello{
+  font-family: 'Average Sans', sans-serif;
+  color: #45b29a;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.hello::selection{
+  background-color: white;
+  color:black;
+}
+
+.profile-para{
+  width:375px;
+  height: auto;
+  line-height: 2;
+  margin:30px auto 50px auto;
+  font-family: 'Martel', serif;
+  font-weight: lighter;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align:left;
+  line-height: 2;
+}
+
+.skill-row-paragraph1{
+  font-family: 'Martel', serif;
+  font-weight: lighter;
+}
+
+.skill-row-paragraph2{
+  font-family: 'Martel', serif;
+  font-weight: lighter;
+}
+
+.My-skills{
+  font-family: 'Average Sans', sans-serif;
+  color: #45b29a;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.skills-image1{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-image2{
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left:30px;
+}
+
+.getintouch{
+  font-family: 'Average Sans', sans-serif;
+  color: #45b29a;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.getintouch-paragraph{
+  width:759px;
+  margin: auto;
+  font-family: 'Martel', serif;
+  font-weight: lighter;
+  line-height: 2;
+  margin-bottom: 70px;
+}
+
+.contact-me{
+  line-height: 2;
+}
+
+.btn {
+  background: #36ffc9;
+  background-image: -webkit-linear-gradient(top, #36ffc9, #1ab591);
+  background-image: -moz-linear-gradient(top, #36ffc9, #1ab591);
+  background-image: -ms-linear-gradient(top, #36ffc9, #1ab591);
+  background-image: -o-linear-gradient(top, #36ffc9, #1ab591);
+  background-image: linear-gradient(to bottom, #36ffc9, #1ab591);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Average Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #46d9bc;
+  background-image: -webkit-linear-gradient(top, #46d9bc, #57e6c7);
+  background-image: -moz-linear-gradient(top, #46d9bc, #57e6c7);
+  background-image: -ms-linear-gradient(top, #46d9bc, #57e6c7);
+  background-image: -o-linear-gradient(top, #46d9bc, #57e6c7);
+  background-image: linear-gradient(to bottom, #46d9bc, #57e6c7);
+  text-decoration: none;
+}
+
+/******************************* BOTTOM CONTAINER STARTS HERE *************************************/
+
+.bottom-container{
+  background-color:#c5ded7;
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.footer-link{
+  display: inline-block;
+  position: relative;
+  padding:10px;
+  margin:40px 30px 20px 30px;
+  text-decoration: none;
+  font-family: 'Average Sans', sans-serif;
+  font-size: 18px;
+  color:#45b29a;
+}
+
+.footer-link:hover{
+  color:#5f6666;
+}
+
+.copyright{
+  position: relative;
+  width:auto;
+  padding-bottom: 30px;
+  margin:auto;
+  color:#5f6666;
+  font-size: 14px;
+}
